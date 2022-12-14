@@ -52,3 +52,25 @@ input{
     transition: .5s ease;
   
   }
+
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    right: -15%;
+  background-size: cover;
+    overflow: hidden;
+    width: 15%;
+    height: 92%;
+    transition: .5s ease;
+    background-color: black;
+    padding: 1%;
+
+
+  }
+
+
+  .col:hover .overlay2 {
+right: 0;
+margin-bottom: 1%;
+
+  }
