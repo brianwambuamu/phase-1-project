@@ -90,3 +90,17 @@ const getMovies=() =>{
     });
 
 }
+
+//search for a show/movie
+const fetchName=()=>{
+    let value = input.value;
+    fetch(`https://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c70a2a598f084ddfb75487c&query="${value}`)
+    .then(response => response.json())
+    .then(shows=>{
+        row_body.innerHTML="";
+        shows.results.forEach(element => {
+            createElements(element)
+        });
+
+       
+    })}
