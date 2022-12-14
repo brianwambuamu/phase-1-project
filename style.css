@@ -1,0 +1,18 @@
+body{
+    background-color: #201e1e73;
+    background-image: url('../img/projo1.jpg');
+    background-blend-mode: darken;    
+    color: white;
+}
+.nav-wrapper{
+    background-color: #201e1e73;
+    background-image: url('../img/projo1.jpg');
+    background-blend-mode: darken; }
+.nav-wrapper a{
+    font-family: 'Oi',cursive;
+    color: #ddfa23;
+}
+input{
+    width: 90%;
+    color: white;
+}
