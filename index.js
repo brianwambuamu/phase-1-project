@@ -24,4 +24,28 @@ const createElements = (x) => {
     let img = document.createElement('img');
     img.src = `https://image.tmdb.org/t/p/w1280${x.poster_path}`;            
     cardImage.appendChild(img);
+  
+    //create the left information and add it to 
+  let overlay = document.createElement('div');
+  overlay.className="overlay";
+  col.appendChild(overlay);
+
+  let overlay2 = document.createElement('div');
+  overlay2.className="overlay2";
+  col.appendChild(overlay2);
+
+  
+  
+  let text = document.createElement('div');
+  text.className= "text"
+  text.innerHTML = `<h5>${x.original_title}</h5> <div class="card-panel" style="background:#810000;color:white;"> ${(x.vote_average)} <span id=stars>${getStars(x.vote_average)}</span> </div>`
+  overlay.appendChild(text);
+
+  let text2 = document.createElement('div');
+  text2.className= "text2"
+  text2.innerHTML = `${x.overview}`
+  overlay2.appendChild(text2);
+
+  row_body.appendChild(col);
+  
 }
