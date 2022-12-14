@@ -104,3 +104,22 @@ const fetchName=()=>{
 
        
     })}
+
+    //search by enter key
+    input.addEventListener("keyup", function(event) {
+        console.log(event.key)
+        if(event.key >= 48 && event.key <= 90) {
+            document.getElementById('key').innerHTML = event.key
+        }        
+        if (event.key === 13) {
+         event.preventDefault();
+         fetchName()
+        }
+      });
+
+  
+
+
+    window.onload = function() {
+        getMovies()
+      };
