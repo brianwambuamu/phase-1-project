@@ -123,3 +123,4 @@ const fetchName=()=>{
     window.onload = function() {
         getMovies()
       };
+      
