@@ -18,7 +18,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Movie Posters</title>
     <style>
 
@@ -26,6 +26,26 @@
 </head>
 
 <body>
+    <section id="authenticator">
+        <input type="checkbox" id="show">
+    <label for="show" class="show-btn">Login Form</label>
+
+    <div class="authenticator-page">
+        <label for="show" class="close-btn" title="close">×</label>
+        <h1>Welcome</h1>
+        <form action="#">
+            <label>Email or Phone</label>
+            <input type="text">
+            <label>Password</label>
+            <input type="password">
+            <a href="#">Forgot Password?</a>
+            <button>Submit</button>
+            <div class="link">Not a member? <a href="#">Sigup here</a></div>
+            
+        <closeform></closeform></form>
+    </section> 
+    
+        
     <div id="toggle">
         <i class="indicator"></i>
     </div>
@@ -37,6 +57,7 @@
             body.classList.toggle('active');
         }
     </script>
+     
     
 <div class="container">
     <nav>
