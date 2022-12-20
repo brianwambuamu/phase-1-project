@@ -22,6 +22,8 @@ About The Project:
 GitHub Logo
 
 This Project shows us a movie website which may enable one to search for a movie which it fetches data from a public movie api to get the searched movie.
+In this website it also has a toggle button which may allow the user o switch either to light mode or dark mode considering their comfort.
+It also has a log in button which opens a login form which a user enters their details in order to continue using the website. 
 
 I have used HTML for basic structure, CSS for some text, image formatting, and made this attractive using CSS and its elements. Also used Javascript for making my website behave or work as I wanted, and linked the open movie API which fetches us movie in which one may wish to view.
 
