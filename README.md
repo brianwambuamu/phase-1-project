@@ -27,8 +27,3 @@ this project is contributed to by
 Brian Wambua.
 # License
 This project is licensed under the MIT License
-Documentation
--------------
-You can see the documentation over at **Read the Docs**
-Resources
--------------
